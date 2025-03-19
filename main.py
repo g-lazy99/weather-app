@@ -23,7 +23,7 @@ class WeatherRequest(BaseModel):
     city: str
 
 
-WEATHERAPI_KEY = os.getenv("WEATHERAPI_KEY")
+WEATHERAPI_KEY = os.getenv("38121cde85b6498d8e4101944251903")
 
 
 @app.post("/forecast")
